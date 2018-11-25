@@ -1,6 +1,5 @@
+# -*- coding: utf-8 -*-
 a = int(input())
 b, c = map(int, input().split())
 moji = input("")
-num = a + b + c
-print('{}{}'. format(num, moji))
-
+print('{} {}'. format(a + b + c, moji))
